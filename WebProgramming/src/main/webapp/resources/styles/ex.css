@@ -1,0 +1,97 @@
+@font-face {
+	font-family: Rajdhani;
+	src: url(../fonts/Rajdhani-Medium.ttf);
+}
+
+:root {
+	--icon_bg: #010409;
+}
+
+* {
+	box-sizing: border-box;
+	background-color: #0f1416;
+	font-family: Rajdhani;
+	font-size: 16px;
+	color: #e3e3e3;
+	margin: 0;
+	padding: 0;
+}
+
+.centerDiv {
+	margin: 5rem auto 0 auto;
+	display: block;
+	width: fit-content;
+	padding: 0 0 1rem 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+}
+
+h1 {
+	font-size: 140%;
+	color: teal;
+	margin-bottom: .5rem;
+}
+
+h2 {
+	font-size: 120%;
+	color: teal;
+	margin-bottom: .5rem;
+}
+
+label {
+	float: left;
+	width: 7rem;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+	/* An attribute selector */
+	border-radius: 0.2rem;
+	width: 15rem;
+	margin: 0 0.5rem 0.5rem 0.5rem;
+}
+
+input[type="submit"] {
+	margin: 0 auto;
+	display: block;
+	border-radius: 0.2rem;
+	width: fit-content;
+	padding: 0.2rem 1rem;
+}
+
+.murach_logo {
+	margin: 0 auto;
+	display: block;
+	border-radius: 5px;
+}
+
+br {
+	clear: both;
+}
+
+/* The styles for the classes */
+.pad_top {
+	padding-top: 0.25rem;
+}
+
+.margin_left {
+	margin-left: 0.5rem;
+}
+
+form>* {
+	margin: 0.75rem 1.5rem;
+}
+
+form {
+	width: fit-content;
+	margin: auto;
+	border-radius: 5px;
+	border: 1px #30363d solid;
+/*	padding-top: 10px;*/
+}
