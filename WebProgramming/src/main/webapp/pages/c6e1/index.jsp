@@ -8,7 +8,7 @@
 		<i>${message}</i>
 	</p>
 </c:if>
-<form action="/api/chap6/1" method="post">
+<form action="${pageContext.request.contextPath}/api/chap6/1" method="post">
 	<input type="hidden" name="action" value="add">
 	<label class="pad_top">Email:</label>
 	<input type="email" name="email" value="${user.email}">

@@ -1,4 +1,4 @@
-<form action="/api/chap6/2" method="post">
+<form action="${pageContext.request.contextPath}/api/chap6/2" method="post">
             <h1>Survey</h1>
             <p>If you have a moment, we'd appreciate it if you would fill out this survey.</p>
             
