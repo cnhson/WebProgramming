@@ -15,6 +15,7 @@
 		<h2>Your information:</h2>
 		<label>First Name</label>
 		<input type="text" name="firstName" required>
+		<br>
 		<label>Last Name</label>
 		<input type="text" name="lastName" required>
 		<br>
